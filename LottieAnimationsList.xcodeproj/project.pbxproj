@@ -13,6 +13,11 @@
 		36C9180529845A460039435F /* AnimationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C9180429845A460039435F /* AnimationsListView.swift */; };
 		36C9180929845C220039435F /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 36C9180829845C220039435F /* Lottie */; };
 		36C9180B29845C530039435F /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C9180A29845C530039435F /* LottieView.swift */; };
+		36C9180E29845D530039435F /* 107795-positive.json in Resources */ = {isa = PBXBuildFile; fileRef = 36C9180D29845D530039435F /* 107795-positive.json */; };
+		36C9181029845DCB0039435F /* 91878-bouncy-fail.json in Resources */ = {isa = PBXBuildFile; fileRef = 36C9180F29845DCB0039435F /* 91878-bouncy-fail.json */; };
+		36C9181229845E330039435F /* 9988-i-love-it-happy-face.json in Resources */ = {isa = PBXBuildFile; fileRef = 36C9181129845E330039435F /* 9988-i-love-it-happy-face.json */; };
+		36C9181429845EEF0039435F /* 24722-pomeranian-dog.json in Resources */ = {isa = PBXBuildFile; fileRef = 36C9181329845EEF0039435F /* 24722-pomeranian-dog.json */; };
+		36C9181629845EF60039435F /* 27420-spongebob.json in Resources */ = {isa = PBXBuildFile; fileRef = 36C9181529845EF60039435F /* 27420-spongebob.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		36C917FC298459F70039435F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		36C9180429845A460039435F /* AnimationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsListView.swift; sourceTree = "<group>"; };
 		36C9180A29845C530039435F /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		36C9180D29845D530039435F /* 107795-positive.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "107795-positive.json"; sourceTree = "<group>"; };
+		36C9180F29845DCB0039435F /* 91878-bouncy-fail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "91878-bouncy-fail.json"; sourceTree = "<group>"; };
+		36C9181129845E330039435F /* 9988-i-love-it-happy-face.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "9988-i-love-it-happy-face.json"; sourceTree = "<group>"; };
+		36C9181329845EEF0039435F /* 24722-pomeranian-dog.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "24722-pomeranian-dog.json"; sourceTree = "<group>"; };
+		36C9181529845EF60039435F /* 27420-spongebob.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "27420-spongebob.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +94,21 @@
 		36C9180629845A8A0039435F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				36C9180C29845D1C0039435F /* Animations */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		36C9180C29845D1C0039435F /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				36C9181529845EF60039435F /* 27420-spongebob.json */,
+				36C9181329845EEF0039435F /* 24722-pomeranian-dog.json */,
+				36C9181129845E330039435F /* 9988-i-love-it-happy-face.json */,
+				36C9180F29845DCB0039435F /* 91878-bouncy-fail.json */,
+				36C9180D29845D530039435F /* 107795-positive.json */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,8 +175,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36C9180E29845D530039435F /* 107795-positive.json in Resources */,
+				36C9181029845DCB0039435F /* 91878-bouncy-fail.json in Resources */,
 				36C917FD298459F70039435F /* Preview Assets.xcassets in Resources */,
 				36C917FA298459F70039435F /* Assets.xcassets in Resources */,
+				36C9181429845EEF0039435F /* 24722-pomeranian-dog.json in Resources */,
+				36C9181229845E330039435F /* 9988-i-love-it-happy-face.json in Resources */,
+				36C9181629845EF60039435F /* 27420-spongebob.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
